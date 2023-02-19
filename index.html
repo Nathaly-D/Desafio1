@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <main id="main" class="main">
+        <form id="formulario" class="formulario">
+            <div class="carta">
+                <img src="./img/Laptop.webp" alt="Laptop">
+                <h1>Laptop Gamer AMD</h1>
+
+                <label for="cantidad"></label>
+                <input type="number" class="caja" id="cantidad" placeholder="Cantidad" required>
+                
+                <label for="opcion"></label>
+                <select name="opcion" id="opcion" class="opcion">
+                    <option value="0" selected>Seleccione un color</option>
+                    <option value="negro">Negro</option>
+                    <option value="gris">Gris</option>
+                    <option value="blanco">Blanco</option>
+                </select><br>
+                
+                <h2>Precio: $400.000</h2>
+                <button type="submit" class="btn" id="btnCalcular">Calcular</button>          
+            
+            </div>
+        </form> 
+
+        <div class="recibo">
+            <h3>Recibo de compra</h3>
+            <p class="textore"> Total:<strong id="totalm"></strong ></p>
+            <p class="textore"> Cantidad:<strong id="cantidadm"></strong ></p>
+            <p  class="textore" >color:<strong id ="colour" class ="colour border ">c</strong></p>
+        </div> 
+
+    </main>
+    <script src="./dist/main.js"></script>
+
+</body>
+
+</html>

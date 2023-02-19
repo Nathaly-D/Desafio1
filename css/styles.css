@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+
+.main {
+    width: 40%;
+    height: 280px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+.carta > img{
+    width: 60%;
+    height: 60%;
+    align-self: center;
+}
+/**********************Formulario***********************************/
+
+.formulario  {
+    width: 420;
+    height: 280px;
+    border-radius: 1vw;
+    border: 3px solid black;
+    background-color: #7BA238;
+    padding: 10px 5px;
+}
+
+h1{
+    font-size: 16px;
+    margin-bottom: 3%;
+    color: white;
+    text-align: center;
+}
+h2{
+    font-size: 14px;
+    margin-bottom: 3%;
+    color: white;
+    text-align: left;
+}
+.formulario > input,label,input,label,button,select {
+    display: block;
+    width: 80%;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;  
+}
+
+.formulario .btn{
+    border:1px solid #E5A015;
+    color: white;
+    background-color: #E5A015;
+    padding: 3px;
+    border-bottom: 1px solid #000;
+}
+/**********************Recibo***********************************/
+.recibo {  
+    width:90%;
+    height: auto;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 10px 5px;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.texto{
+    text-align: justify;
+    font-size: 22px;
+    margin: 15% 13%;
+    display: block;
+}
+
+h3{
+    color: #7BA238;
+    font-size: large;
+    margin-top: 0%;
+}
+#colourborder{
+    border-color: #000;
+    border: 5px solid #000;
+}
+.colour{
+    color:antiquewhite;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.negro{
+    background-color: #000;
+    color:  #000;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.gris{
+    background-color: #4e4649;
+    color:  #4e4649;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.blanco{
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+
+
+/*
+
+.form>input,label,button,select {
+    display: block;
+    width: 90%;
+    margin: 3% 5%;
+    font-size: 20px;
+}
+
+form>input,select {
+    padding: 6px 2px;
+    border: none;
+    border-bottom: 1px solid #f22e76;
+    outline: none;
+    background-color: #ffffff00;
+}
+.form>label{
+    text-align: left;
+    font-size: 17px;
+}
+
+
+.resultado {
+    
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #be57f2;
+    padding: 25px 10px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.resultadoTexto{
+    text-align: justify;
+    font-size: 20px;
+    margin: 9% 5%;
+    display: block;
+}
+
+.border{
+    padding: 2px;
+    border-radius: 50px;
+    border: 1px solid #000;
+     
+}
+.pColor{
+    color: #ffffff00;
+    background-color: #ffffff00; 
+}
+
