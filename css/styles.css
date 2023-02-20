@@ -3,28 +3,31 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    align-content: center;
 }
 
 .main {
-    width: 40%;
-    height: 280px;
-    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    height: 380px;
     align-items: flex-end;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
     
 }
 
 .carta > img{
     width: 60%;
     height: 60%;
-    align-self: center;
+    position: relative;
+    top: 20%;
+    left: 20%;
 }
 /**********************Formulario***********************************/
 
 .formulario  {
-    width: 420;
-    height: 280px;
+    margin: 0 auto;
+    width: 80%;
+    height: 380px;
     border-radius: 1vw;
     border: 3px solid black;
     background-color: #7BA238;
@@ -32,13 +35,13 @@
 }
 
 h1{
-    font-size: 16px;
+    font-size: 25px;
     margin-bottom: 3%;
     color: white;
     text-align: center;
 }
 h2{
-    font-size: 14px;
+    font-size: 22px;
     margin-bottom: 3%;
     color: white;
     text-align: left;
@@ -46,9 +49,12 @@ h2{
 .formulario > input,label,input,label,button,select {
     display: block;
     width: 80%;
-    font-size: 14px;
+    font-size: 20px;
     border-radius: 5px;
-    text-align: center;  
+    text-align: center; 
+    position: relative;
+    top: 10%;
+    left: 10%;
 }
 
 .formulario .btn{
@@ -60,27 +66,22 @@ h2{
 }
 /**********************Recibo***********************************/
 .recibo {  
-    width:90%;
-    height: auto;
+    width:80%;
+    height: 40%;
     border-radius: 5px;
     border: 3px solid black;
     padding: 10px 5px;
     text-align: center;
-    margin-bottom: 20%;
-}
-
-.texto{
-    text-align: justify;
-    font-size: 22px;
-    margin: 15% 13%;
-    display: block;
+    margin-bottom: 10%;
+    font-size: 20px;
 }
 
 h3{
     color: #7BA238;
-    font-size: large;
+    font-size: 25px;
     margin-top: 0%;
 }
+/***************************************************************/
 #colourborder{
     border-color: #000;
     border: 5px solid #000;
@@ -110,58 +111,3 @@ h3{
     border-radius: 50%;
     border: 2px solid black;
 }
-
-
-
-
-/*
-
-.form>input,label,button,select {
-    display: block;
-    width: 90%;
-    margin: 3% 5%;
-    font-size: 20px;
-}
-
-form>input,select {
-    padding: 6px 2px;
-    border: none;
-    border-bottom: 1px solid #f22e76;
-    outline: none;
-    background-color: #ffffff00;
-}
-.form>label{
-    text-align: left;
-    font-size: 17px;
-}
-
-
-.resultado {
-    
-    width: 40%;
-    height: auto;
-    border-radius: 10px;
-    border: 2px solid #be57f2;
-    padding: 25px 10px;
-    text-align: center;
-    margin-bottom: 10%;
-}
-
-.resultadoTexto{
-    text-align: justify;
-    font-size: 20px;
-    margin: 9% 5%;
-    display: block;
-}
-
-.border{
-    padding: 2px;
-    border-radius: 50px;
-    border: 1px solid #000;
-     
-}
-.pColor{
-    color: #ffffff00;
-    background-color: #ffffff00; 
-}
-

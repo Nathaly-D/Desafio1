@@ -30,4 +30,5 @@ const paintRecibo =()=>{
             colour.classList.add('blanco');
         break;
     }
+    formulario.reset()
 }
